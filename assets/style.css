@@ -1,0 +1,71 @@
+body {
+  background: #292929;
+  color: #F4F4F4;
+  font-family: 'Geologica';
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 0.5rem;
+  margin-top: 20%;
+  margin-bottom: 12%;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  font-family: 'Geologica';
+  background: none;
+  color: #F4F4F4;
+  border: solid #F4F4F4;
+  border-radius: 10px;
+  line-height: 50px;
+  margin-bottom: 0.7%;
+}
+
+button:hover {
+  background: #F4F4F4;
+  transition: 0.2s;
+  color: #292929;
+}
+
+.encabezado, .reglas, .créditos { animation: fadeIn 2s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#btn {
+  margin-top: 20%;
+  margin-bottom: 12%;
+}
+
+#text { text-align: center; }
+
+#logo {
+  animation: fadeIn 2s;
+  position: fixed;
+  height: 5%;
+  top: 10px;
+  right: 10px;
+}
+
+#btn2 { animation: fadeIn 2s; }
+
+h2 { text-align:center; }
+
+p {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.icons {
+  margin-top: 2%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
